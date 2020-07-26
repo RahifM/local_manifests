@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories -->
+
+  <remote name="github" fetch="https://github.com" />
+
+  <remove-project name="platform/build/blueprint" />
+  <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="android-10.0.0_r40" />
+  <remove-project name="platform/build/soong" />
+  <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="android-10.0.0_r40" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <remove-project name="platform/frameworks/av" />
+  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-10.0.0_r40" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-10.0.0_r40" />
+  <remove-project name="platform/system/core" />
+  <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="android-10.0.0_r40" />
+
+</manifest>
