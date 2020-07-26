@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
+<manifest>
+  <remove-project name="AOSPA/android_packages_apps_Bluetooth" />
+  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="pa-quartz" />
+  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="pa-quartz" />
+  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="rebase/LA.UM.8.6.r1" />
+  <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="aospa" revision="quartz" />
+  <project name="proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="blobs" revision="quartz" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="pa-quartz-8996" />
+  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="pa-quartz-8996" />
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="pa-quartz-8996" />
+  <project name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="aospa" revision="quartz" />
+  <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="pa-quartz" />
+  <project name="rahifm/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="pa-quartz" />
+  <project name="rahifm/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="lineage-17.1" />
+  <project name="rahifm/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-17.1" />
+  <project name="lineageos/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-17.1" />
+  <project name="lineageos/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
+  <project name="AOSPA/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aospa" revision="quartz-dev" />
+  <project name="AOSPA/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="aospa" revision="quartz-legacy" />
+</manifest>
