@@ -6,20 +6,40 @@
 
   <remove-project name="platform/build/blueprint" />
   <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/build" />
+  <project path="build/make" name="platform_build_make" remote="github" revision="caf/LA.UM.8.6.r1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <remove-project name="platform/build/soong" />
   <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="caf/LA.UM.8.6.r1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <remove-project name="platform/frameworks/av" />
-  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/frameworks/base" />
+  <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/av" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/system/core" />
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="github" revision="caf/LA.UM.8.6.r1" />
 
 </manifest>
