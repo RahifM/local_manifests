@@ -31,6 +31,7 @@
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-10" />
