@@ -33,6 +33,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-10" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="caf/LA.UM.8.6.r1" />
@@ -45,6 +46,8 @@
   <remove-project name="platform/system/sepolicy" />
   <project name="AOSP-whatever/platform_system_sepolicy" path="system/sepolicy" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="github" revision="quartz" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" path="vendor/qcom/sdclang-8.0/linux-x86" remote="github" revision="quartz" />
