@@ -19,6 +19,7 @@
   <project name="rahifm/frameworks_base" path="frameworks/base" remote="github" revision="du-q10x" />
   <remove-project name="android_hardware_qcom-caf_common" />
   <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-17.1" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
   </project>
