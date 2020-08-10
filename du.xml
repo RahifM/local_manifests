@@ -34,7 +34,7 @@
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-10.0.0_r40" />
   <remove-project name="android_system_core" />
   <project name="rahifm/platform_system_core" path="system/core" remote="github" revision="du-q10x" />
-  <remove-project name="android_system_libhidl" />
+  <remove-project name="platform/system/libhidl" />
   <project name="rahifm/android_system_libhidl" path="system/libhidl" remote="github" revision="du-q10x" />
   <remove-project name="android_system_sepolicy" />
   <project name="rahifm/system_sepolicy" path="system/sepolicy" remote="github" revision="du-q10x" />
@@ -42,6 +42,8 @@
   <project name="rahifm/android_vendor_du" path="vendor/du" remote="github" revision="q10x" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
+  <remove-project name="android_vendor_extras" />
+  <project name="rahifm/android_vendor_extras" path="vendor/extras" remote="github" revision="q10x" >
   <remove-project name="android_vendor_themes" />
   <project name="rahifm/android_vendor_themes" path="vendor/themes" remote="github" revision="q10x" />
   <project name="DirtyUnicorns/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="q10x" />
