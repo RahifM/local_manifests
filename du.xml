@@ -43,7 +43,7 @@
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <remove-project name="android_vendor_extras" />
-  <project name="rahifm/android_vendor_extras" path="vendor/extras" remote="github" revision="q10x" >
+  <project name="rahifm/android_vendor_extras" path="vendor/extras" remote="github" revision="q10x" />
   <remove-project name="android_vendor_themes" />
   <project name="rahifm/android_vendor_themes" path="vendor/themes" remote="github" revision="q10x" />
   <project name="DirtyUnicorns/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="q10x" />
