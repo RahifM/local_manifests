@@ -2,7 +2,7 @@
 <manifest>
   <!-- Repositories -->
 
-  <remove-project name="platform/build/blueprint" />
+  <remove-project name="android_build_blueprint" />
   <project name="rahifm/build_blueprint" path="build/blueprint" remote="github" revision="du-q10x" />
   <remove-project name="android_build_soong" />
   <project name="rahifm/build_soong" path="build/soong" remote="github" revision="du-q10x" >
