@@ -60,7 +60,7 @@
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="rebase/LA.UM.8.6.r1" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="du-q10x" />
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-10-8996" />
-  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-10-8996" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-10-8996-dev" />
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-10-8996" />  
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
 
