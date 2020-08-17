@@ -7,7 +7,7 @@
   <remove-project name="platform/build/blueprint" />
   <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/build" />
-  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="caf/LA.UM.8.6.r1">
+  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="caf/LA.UM.8.6.r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -29,6 +29,7 @@
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/packages/apps/Browser2" />
@@ -38,6 +39,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
