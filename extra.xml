@@ -32,6 +32,8 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project name="AOSPA/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aospa" revision="quartz-dev" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="caf/LA.UM.8.6.r1" />
