@@ -2,13 +2,6 @@
 <manifest>
   <!-- Repositories -->
 
-  <remove-project name="android_build_blueprint" />
-  <project name="rahifm/build_blueprint" path="build/blueprint" remote="github" revision="du-q10x" />
-  <remove-project name="android_build_soong" />
-  <project name="rahifm/build_soong" path="build/soong" remote="github" revision="du-q10x" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-17.1" />
