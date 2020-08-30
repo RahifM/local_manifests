@@ -2,6 +2,21 @@
 <manifest>
   <!-- Repositories -->
 
+  <remove-project name="android_build" />
+  <project name="rahifm/build" path="build/make" remote="github" revision="du-q10x" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="android_build_soong" />
+  <project name="rahifm/build_soong" path="build/soong" remote="github" revision="du-q10x" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-17.1" />
