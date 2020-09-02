@@ -4,6 +4,8 @@
 
   <remote name="github" fetch="https://github.com" />
 
+  <remove-project name="platform/bootable/recovery" />
+  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/build/blueprint" />
   <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/build" />
