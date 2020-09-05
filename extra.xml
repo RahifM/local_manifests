@@ -2,6 +2,8 @@
 <manifest>
   <!-- Repositories -->
 
+  <remove-project name="android_art" />
+  <project name="rahifm/art" path="art" remote="github" revision="du-q10x" />
   <remove-project name="android_build" />
   <project name="rahifm/build" path="build/make" remote="github" revision="du-q10x" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -17,6 +19,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-17.1-legacy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-17.1" />
@@ -31,6 +34,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
   </project>
+  <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="github" revision="lineage-17.1-caf" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
   <project name="AOSP-whatever/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -65,14 +69,25 @@
   <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="github" revision="lineage-17.1" />
 
   <!-- device stuff -->
+  <!-- Redmi Note 4X (mido) -->
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="du-q10x" />
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="rebase/LA.UM.8.6.r1" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="du-q10x" />
+  <!-- Redmi 2 (wt88047) -->
+  <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="du-q10x" />
+  <project name="rahifm/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="du-q10x" />
+  <project name="rahifm/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-17.1" />
+  <project name="rahifm/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="lineage-17.1" />
+
+  <!-- HALs -->
   <remove-project name="android_hardware_qcom_display" />
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="github" revision="du-q10x-8996" />
   <remove-project name="android_hardware_qcom_audio" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="du-q10x-8996" />
   <remove-project name="android_hardware_qcom_media" />
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="du-q10x-8996" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="lineage-17.1-caf-msm8916" />
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8916/audio" remote="github" revision="lineage-17.1-caf-msm8916" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-17.1-caf-msm8916" />
 
 </manifest>
