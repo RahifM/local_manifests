@@ -37,6 +37,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
   </project>
   <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="github" revision="lineage-17.1-caf" />
+  <project name="LineageOS/android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="github" revision="lineage-17.1" />
   <remove-project name="android_hardware_qcom_wlan" />
   <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-17.1-caf" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
