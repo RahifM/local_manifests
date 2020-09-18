@@ -34,6 +34,7 @@
   <project name="rahifm/frameworks_native" path="frameworks/native" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-10.0.0" />
+  <project name="AOSP-whatever/platform_hardware_qcom_thermal" path="hardware/qcom/thermal" remote="github" revision="android-10.0.0" />
   <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -68,6 +69,7 @@
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-10.0.0" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-10.0.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="github" revision="lineage-17.1" />
 
   <!-- device stuff -->
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="android-10.0.0" />
