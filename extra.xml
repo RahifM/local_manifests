@@ -53,6 +53,8 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-10.0.0" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project name="rahifm/packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-10.0.0" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project name="AOSP-whatever/platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="github" revision="android-10.0.0" />
