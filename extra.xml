@@ -30,8 +30,8 @@
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="android-10.0.0" />
-  <remove-project name="android_frameworks_native" />
-  <project name="rahifm/frameworks_native" path="frameworks/native" remote="github" revision="android-10.0.0" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-10.0.0" />
   <project name="AOSP-whatever/platform_hardware_qcom_thermal" path="hardware/qcom/thermal" remote="github" revision="android-10.0.0" />
@@ -54,7 +54,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project name="rahifm/packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-10.0.0" />
+  <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-10.0.0" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project name="AOSP-whatever/platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="github" revision="android-10.0.0" />
