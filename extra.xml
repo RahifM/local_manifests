@@ -29,6 +29,8 @@
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
@@ -37,19 +39,30 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="AOSPA/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="quartz-dev" />
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="AOSP-whatever/platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-10" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-10.0.0" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project name="AOSP-whatever/platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="lineage-17.1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="lineage-17.1" />
+  <remove-project name="platform/system/bt" />
+  <project name="AOSP-whatever/platform_system_bt" path="system/bt" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/system/core" />
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/system/sepolicy" />
