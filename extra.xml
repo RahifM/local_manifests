@@ -49,10 +49,13 @@
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project name="AOSP-whatever/platform_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/platform_testing" />
   <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/system/core" />
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="android-11.0.0" />
+  <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-17.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-17.1" />
