@@ -27,6 +27,8 @@
   <project name="AOSP-whatever/platform_device_qcom_common" path="device/qcom/common" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-17.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-10.0.0" />
+  <remove-project name="platform/frameworks/av" />
+  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="caf/LA.UM.8.6.r1" />
   <remove-project name="platform/frameworks/native" />
@@ -89,7 +91,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-10-8996" />
   <remove-project name="platform/hardware/qcom/media" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-10-8996" />  
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-10-8996-dev" />  
   <remove-project name="device/qcom/sepolicy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
 
