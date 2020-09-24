@@ -72,6 +72,8 @@
   <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="github" revision="quartz" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="github" revision="caf/LA.UM.8.6.r1" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-10.0.0" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="caf/LA.UM.8.6.r1" />
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" path="vendor/qcom/sdclang-8.0/linux-x86" remote="github" revision="quartz" />
@@ -96,6 +98,6 @@
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
 
   <!-- find a better way to do this -->
-  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/include" remote="github" revision="anc-10-headers" />
+  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/include" remote="github" revision="pa-mido-quartz-header" />
 
 </manifest>
