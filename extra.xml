@@ -4,6 +4,8 @@
 
   <remote name="github" fetch="https://github.com" />
 
+  <remove-project name="platform/bionic" />
+  <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/build" />
@@ -57,6 +59,7 @@
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-17.1" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-17.1" />
 
