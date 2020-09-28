@@ -69,7 +69,7 @@
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-11.0.0" />
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996" />  
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />  
   <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.0-legacy-um" />
 
   <!-- find a better way to do this -->
