@@ -4,10 +4,12 @@
 
   <remote name="github" fetch="https://github.com" />
 
+  <remove-project name="platform/bootable/recovery" />
+  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="master" />
   <!-- remove-project name="platform/build/blueprint" />
-  <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="android-10.0.0" />
+  <project name="AOSP-whatever/platform_build_blueprint" path="build/blueprint" remote="github" revision="android-10.0.0" / -->
   <remove-project name="platform/build" />
-  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="android-10.0.0">
+  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,19 +18,22 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="platform/build/soong" />
+  <!-- remove-project name="platform/build/soong" />
   <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="android-10.0.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.0" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/external/selinux" />
+  <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="master" />
   <remove-project name="platform/frameworks/av" />
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="master" />
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="master" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="master" />
+  <project name="AOSP-whatever/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="android-11.0.0" />
   <!-- remove-project name="platform/hardware/qcom/camera" / -->
   <remove-project name="platform/hardware/qcom/gps" />
   <!-- remove-project name="platform/packages/apps/Browser2" />
