@@ -69,7 +69,4 @@
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />  
   <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.0-legacy-um" />
 
-  <!-- find a better way to do this -->
-  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/include" remote="github" revision="pa-mido-quartz-header" />
-
 </manifest>
