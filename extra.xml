@@ -4,6 +4,8 @@
 
   <remote name="github" fetch="https://github.com" />
 
+  <remove-project name="platform/bionic" />
+  <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="master" />
   <remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="master" />
   <!-- remove-project name="platform/build/blueprint" />
