@@ -28,6 +28,8 @@
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/selinux" />
   <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/external/tinycompress" />
+  <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/av" />
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/base" />
