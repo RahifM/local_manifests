@@ -21,7 +21,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.0" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/selinux" />
   <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="caf/LA.UM.9.6.2.r1" />
@@ -33,7 +33,7 @@
   <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="caf/LA.UM.9.6.2.r1" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.9.6.2.r1" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.0" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/packages/apps/Browser2" />
