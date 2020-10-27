@@ -52,7 +52,7 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project name="AOSP-whatever/platform_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="github" revision="caf/LA.UM.9.6.2.r1" />
   <remove-project name="platform/platform_testing" />
-  <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="caf/LA.UM.9.6.2.r1"" />
+  <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="caf/LA.UM.9.6.2.r1" />
   <remove-project name="platform/system/core" />
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="caf/LA.UM.9.6.2.r1" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
