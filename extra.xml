@@ -74,15 +74,26 @@
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.0" />
 
   <!-- Device stuff -->
+  <!-- Redmi Note 4X (mido) -->
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="android-11.0.0" />
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="rebase/LA.UM.8.6.r1" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-11.0.0" />
   <!-- FIX ME !! -->
   <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/techpack" remote="github" revision="techpack-4.9" />
+  <!-- Redmi 2 (wt88047) -->
+  <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="android-11.0.0" />
+  <project name="rahifm/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="android-11.0.0" />
+  <project name="rahifm/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-17.1" />
+  <project name="rahifm/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="android-11.0.0" />
+  <!-- FIX ME 2 !! -->
+  <project name="rahifm/device_wingtech_wt88047" path="out/target/product/wt88047/obj/KERNEL_OBJ/usr/include" remote="github" revision="aosp-9-wt88047-headers" />
 
   <!-- HALs -->
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />  
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />
+  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8916" remote="github" revision="android-11-8916" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8916" remote="github" revision="android-11-8916" />
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8916" remote="github" revision="android-11-8916" />  
 
 </manifest>
