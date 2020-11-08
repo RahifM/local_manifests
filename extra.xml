@@ -26,7 +26,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
-  <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/external/selinux" />
   <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
   <remove-project name="platform/frameworks/av" />
@@ -43,8 +43,9 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="AOSP-whatever/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/hardware/qcom/gps" / -->
+  <remove-project name="platform/hardware/qcom/sensors" />
+  <!-- remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -69,10 +70,10 @@
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="caf/LA.UM.9.6.2.r1" />
-  <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/location" / -->
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
-  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <!-- remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
