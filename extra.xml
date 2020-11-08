@@ -5,9 +5,9 @@
   <remote name="github" fetch="https://github.com" />
 
   <!-- remove-project name="platform/bootable/recovery" />
-  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="caf/LA.UM.9.6.2.r1" />
+  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
   <remove-project name="platform/build" />
-  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="caf/LA.UM.9.6.2.r1" >
+  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="caf/LA.BR.1.2.9.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,7 +16,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="platform/build/soong" />
+  <!-- remove-project name="platform/build/soong" />
   <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="caf/LA.UM.9.6.2.r1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -24,7 +24,7 @@
   <remove-project name="device/qcom/common" />
   <project name="AOSP-whatever/platform_device_qcom_common" path="device/qcom/common" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <remove-project name="device/qcom/sepolicy" />
-  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="lineage-15.1" />
+  <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/external/selinux" />
@@ -37,9 +37,9 @@
   <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
   <remove-project name="platform/hardware/interfaces" />
   <project name="AOSP-whatever/platform_hardware_interfaces" path="hardware/interfaces" remote="github" revision="caf/LA.BR.1.2.9.1" />
-  <!-- remove-project name="platform/hardware/libhardware" />
-  <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.UM.9.6.2.r1" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.0" / -->
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="caf/LA.BR.1.2.9.1" />
+  <!-- project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.0" / -->
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="AOSP-whatever/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/hardware/qcom/camera" />
@@ -64,9 +64,9 @@
   <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
   <remove-project name="platform/system/bt" />
   <project name="AOSP-whatever/platform_system_bt" path="system/bt" remote="github" revision="caf/LA.BR.1.2.9.1" />
-  <!-- remove-project name="platform/system/core" />
-  <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="caf/LA.UM.9.6.2.r1" />
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/system/core" />
+  <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="caf/LA.BR.1.2.9.1" />
+  <!-- remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="caf/LA.UM.9.6.2.r1" />
