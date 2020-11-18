@@ -4,6 +4,8 @@
 
   <remote name="github" fetch="https://github.com" />
 
+  <remove-project name="platform/bionic" />
+  <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
   <remove-project name="platform/build" />
@@ -27,8 +29,8 @@
   <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="caf/LA.BR.1.2.9.1" />
-  <!-- remove-project name="platform/external/selinux" />
-  <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="caf/LA.UM.9.6.2.r1" / -->
+  <remove-project name="platform/external/selinux" />
+  <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <remove-project name="platform/frameworks/av" />
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <!-- remove-project name="platform/frameworks/base" />
