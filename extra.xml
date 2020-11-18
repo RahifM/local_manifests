@@ -92,6 +92,9 @@
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />
+  <!-- FIX ME 3 !! 
+  build/make/core/base_rules.mk:325: error: hardware/qcom/display-caf-msm8916/include: MODULE.TARGET.HEADER_LIBRARIES.display_headers already defined by hardware/qcom/display-caf-msm8996.
+  -->  
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8916" remote="github" revision="android-11-8916" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8916" remote="github" revision="android-11-8916" />
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8916" remote="github" revision="android-11-8916" />  
