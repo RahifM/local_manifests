@@ -18,17 +18,19 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <!-- remove-project name="platform/build/soong" />
-  <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="caf/LA.UM.9.6.2.r1" >
+  <remove-project name="platform/build/soong" />
+  <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="caf/LA.BR.1.2.9.1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project -->
+  </project>
   <remove-project name="device/qcom/common" />
   <project name="AOSP-whatever/platform_device_qcom_common" path="device/qcom/common" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <remove-project name="device/qcom/sepolicy" />
   <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="caf/LA.BR.1.2.9.1" />
+  <remove-project name="platform/external/okhttp" />
+  <project name="AOSP-whatever/platform_external_okhttp" path="external/okhttp" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <remove-project name="platform/external/selinux" />
   <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="caf/LA.BR.1.2.9.1" />
   <remove-project name="platform/frameworks/av" />
