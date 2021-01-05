@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" />
+  <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" />
+  <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" />
+</manifest>
