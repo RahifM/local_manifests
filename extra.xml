@@ -93,14 +93,14 @@
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-17.1-4.9" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-11.0.0" />
   <!-- FIX ME !! -->
-  <project name="rahifm/device_xiaomi_mido" path="out/target/product/mido/obj/KERNEL_OBJ/usr/techpack" remote="github" revision="techpack-4.9" />
+  <project name="rahifm/kernel_headers_dump" path="out/target/product/mido/obj/KERNEL_OBJ/usr/techpack" remote="github" revision="du-q10x-mido-4.9-techpack" />
   <!-- Redmi 2 (wt88047) -->
   <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="android-11.0.0" />
   <project name="rahifm/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="android-11.0.0" />
   <project name="rahifm/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-17.1" />
   <project name="rahifm/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="android-11.0.0" />
   <!-- FIX ME 2 !! -->
-  <project name="rahifm/device_wingtech_wt88047" path="out/target/product/wt88047/obj/KERNEL_OBJ/usr/include" remote="github" revision="aosp-9-wt88047-headers" />
+  <project name="rahifm/kernel_headers_dump" path="out/target/product/wt88047/obj/KERNEL_OBJ/usr/include" remote="github" revision="du-q10x-wt88047-headers" />
 
   <!-- HALs -->
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
