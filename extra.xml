@@ -25,11 +25,14 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-18.0-legacy" />
-  <project name="AOSP-whatever/platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.0-legacy-um" />
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.0" />
-  <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-18.0" />
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-18.1-legacy" />
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_exfatprogs" path="external/exfatprogs" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/external/perfetto" />
+  <project name="AOSP-whatever/platform_external_perfetto" path="external/perfetto" remote="github" revision="android-11.0.0" />   
   <remove-project name="platform/external/selinux" />
   <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/tinycompress" />
@@ -38,12 +41,16 @@
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="AOSP-whatever/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-11.0.0" />
-  <project name="AOSP-whatever/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="android-11.0.0" />
+  <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/hardware/qcom/bt" />
   <project name="AOSP-whatever/platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="android-11.0.0" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.0" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="AOSP-whatever/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -56,22 +63,29 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="android-11.0.0" />
+  <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project name="AOSP-whatever/platform_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/platform_testing" />
   <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/system/core" />
   <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="android-11.0.0" />
-  <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-18.0" />
-  <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-18.0" />
+  <remove-project name="platform/system/sepolicy" />
+  <project name="AOSP-whatever/platform_system_sepolicy" path="system/sepolicy" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/system/vold" />
+  <project name="AOSP-whatever/platform_system_vold" path="system/vold" remote="github" revision="android-11.0.0" />
+  <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-11.0.0" />
-  <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
