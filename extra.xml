@@ -32,9 +32,7 @@
   <project name="LineageOS/android_external_json-c" path="external/json-c" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/perfetto" />
-  <project name="AOSP-whatever/platform_external_perfetto" path="external/perfetto" remote="github" revision="android-11.0.0" />   
-  <remove-project name="platform/external/selinux" />
-  <project name="AOSP-whatever/platform_external_selinux" path="external/selinux" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_external_perfetto" path="external/perfetto" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/tinycompress" />
   <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/av" />
@@ -70,8 +68,6 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-11.0.0" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <project name="AOSP-whatever/platform_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/platform_testing" />
   <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/system/core" />
