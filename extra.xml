@@ -4,8 +4,8 @@
 
   <remote name="github" fetch="https://github.com" />
 
-  <remove-project name="platform/art" />
-  <project name="AOSP-whatever/platform_art" path="art" remote="github" revision="android-11.0.0" />
+  <remove-project name="android_art" />
+  <project name="AOSP-whatever/platform_art" path="art" remote="github" revision="proton-rvc" />
   <remove-project name="android_bionic" />
   <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="proton-rvc" />
   <remove-project name="platform/bootable/recovery" />
@@ -36,8 +36,8 @@
   <project name="AOSP-whatever/platform_external_perfetto" path="external/perfetto" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/tinycompress" />
   <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
-  <remove-project name="platform/frameworks/av" />
-  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-11.0.0" />
+  <remove-project name="android_frameworks_av" />
+  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="proton-rvc" />
   <remove-project name="android_frameworks_base" />
   <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="proton-rvc" />
   <remove-project name="android_frameworks_native" />
