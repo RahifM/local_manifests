@@ -43,6 +43,8 @@
   <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project name="AOSP-whatever/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project name="AOSP-whatever/platform_hardware_interfaces" path="hardware/interfaces" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-18.1" />
