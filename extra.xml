@@ -54,8 +54,8 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="AOSP-whatever/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="android-11.0.0" />
-  <!-- remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <!-- remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
