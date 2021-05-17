@@ -95,7 +95,7 @@
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
   <remove-project name="android_hardware_qcom_sm8150_display" />
-  <remove-project name="android_vendor_qcom_opensource_core" />
+  <remove-project name="android_vendor_qcom_opensource_core-utils" />
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
