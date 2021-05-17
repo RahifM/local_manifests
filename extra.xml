@@ -86,15 +86,15 @@
   <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
-  <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="staging/android-11.0.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
-  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="android-11.0.0" />
+  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/android-11.0.0-2" />
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="LA.UM.8.6.r1" />
-  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-11.0.0" />
+  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/android-11.0.0-2" />
   <!-- Redmi 2 (wt88047) -->
   <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="android-11.0.0" />
   <project name="rahifm/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="android-11.0.0" />
@@ -104,9 +104,9 @@
   <project name="rahifm/kernel_headers_dump" path="out/target/product/wt88047/obj/KERNEL_OBJ/usr/include" remote="github" revision="du-q10x-wt88047-headers" />
 
   <!-- HALs -->
-  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996-dev" />
+  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="staging/android-11-8996-2" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="staging/android-11-8996-2" />
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="staging/android-11-8996-2" />
   <!-- FIX ME 2 !! 
   build/make/core/base_rules.mk:325: error: hardware/qcom/display-caf-msm8916/include: MODULE.TARGET.HEADER_LIBRARIES.display_headers already defined by hardware/qcom/display-caf-msm8996.
   -->  
