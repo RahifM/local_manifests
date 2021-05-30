@@ -95,7 +95,7 @@
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
   <project name="platform/external/zlib" path="external/zlib" remote="aosp" />
-  <remove-project name="android_external_zlib" />
+  <remove-project name="android_external_zlib-ng" />
   <remove-project name="android_hardware_qcom_sm8150_display" />
   <remove-project name="android_hardware_qcom_sm8150_media" />
   <remove-project name="platform/hardware/qcom/sm8150/gps" />
