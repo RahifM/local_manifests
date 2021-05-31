@@ -99,7 +99,7 @@
    <linkfile src="localbuild.sh" dest="localbuild.sh" />
    <linkfile src="upload.sh" dest="upload.sh" />
    <linkfile src="prebuiltkernelupdate.sh" dest="prebuiltkernelupdate.sh" />
-  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="LA.UM.8.6.r1" />
+  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="staging/android-11.0.0" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/android-11.0.0-2" />
   <!-- Redmi 2 (wt88047) -->
   <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="android-11.0.0" />
