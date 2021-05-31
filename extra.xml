@@ -94,11 +94,12 @@
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
-  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/android-11.0.0-2" />
+  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/android-11.0.0-2" >
    <linkfile src="build.sh" dest="build.sh" />
    <linkfile src="localbuild.sh" dest="localbuild.sh" />
    <linkfile src="upload.sh" dest="upload.sh" />
    <linkfile src="prebuiltkernelupdate.sh" dest="prebuiltkernelupdate.sh" />
+  </project>
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="staging/android-11.0.0" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/android-11.0.0-2" />
   <!-- Redmi 2 (wt88047) -->
