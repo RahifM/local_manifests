@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="android_kernel_xiaomi_msm8953" />
+  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="staging/LA.UM.8.6.r1" />
+
+</manifest>
