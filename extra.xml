@@ -40,7 +40,9 @@
   <project path="vendor/codeaurora/commonsys/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" remote="github" revision="staging/android-11.0.0" />
-
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="AOSPA/android_kernel_build" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
