@@ -15,7 +15,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="device/qcom/common" />
+  <remove-project name="AOSPA/android_device_qcom_common" />
   <project path="device/qcom/common" name="AOSP-whatever/android_device_qcom_common" remote="github" revision="staging/pa-ruby" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
