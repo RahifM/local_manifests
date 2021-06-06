@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+  <!-- Repositories -->
+
+  <remote name="github" fetch="https://github.com" />
+
+ <remove-project name="AOSPA/android_build" />
+  <project path="build/make" name="AOSP-whatever/platform_build_make" remote="github" revision="staging/pa-ruby" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="AOSP-whatever/android_device_qcom_common" remote="github" revision="staging/pa-ruby" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="AOSP-whatever/platform_frameworks_base" remote="github" revision="staging/pa-ruby" />
+  <remove-project name="AOSPA/android_system_sepolicy" />
+  <project path="system/sepolicy" name="AOSP-whatever/platform_system_sepolicy" remote="github" revision="staging/pa-ruby" />
+  <remove-project name="AOSPA/android_vendor_pa" />
+    <project path="vendor/pa" name="AOSP-whatever/android_vendor_pa" remote="github" revision="staging/pa-ruby" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" remote="github" revision="staging/pa-ruby" />
+
+  <!-- Device stuff -->
+  <!-- Redmi Note 4X (mido) -->
+  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/pa-ruby" >
+   <linkfile src="build.sh" dest="build.sh" />
+   <linkfile src="localbuild.sh" dest="localbuild.sh" />
+   <linkfile src="upload.sh" dest="upload.sh" />
+   <linkfile src="prebuiltkernelupdate.sh" dest="prebuiltkernelupdate.sh" />
+  </project>
+  <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="staging/android-11.0.0" />
+  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/pa-ruby" />
+  <!-- HALs -->
+  <project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="staging/pa-ruby-8996" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="staging/pa-ruby-8996" />
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="staging/pa-ruby-8996" />
+
+</manifest>
