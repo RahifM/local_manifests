@@ -34,8 +34,6 @@
     <project path="vendor/pa" name="AOSP-whatever/android_vendor_pa" remote="github" revision="staging/pa-ruby" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
-  <remove-project name="AOSPA/android_vendor_qcom-opensource_interfaces" />
-  <project path="vendor/qcom/opensource/interfaces" name="AOSP-whatever/platform_vendor_qcom_opensource_interfaces" remote="github" revision="staging/pa-ruby" />
   <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
