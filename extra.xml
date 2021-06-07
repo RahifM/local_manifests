@@ -22,6 +22,8 @@
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_external_libbfqio" path="external/libbfqio" remote="github" revision="android-11.0.0" />
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <project path="frameworks/av" name="AOSP-whatever/platform_frameworks_av" remote="github" revision="staging/pa-ruby" />
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="AOSP-whatever/platform_frameworks_base" remote="github" revision="staging/pa-ruby" />
   <remove-project name="AOSPA/android_frameworks_native" />
