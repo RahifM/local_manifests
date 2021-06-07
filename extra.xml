@@ -45,6 +45,8 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="AOSPA/android_kernel_build" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
+  <remove-project name="android_vendor_google_pixel" />
+  <project path="vendor/google/pixel" name="rahifm/android_vendor_google_pixel" remote="github" revision="ruby" />
 
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
