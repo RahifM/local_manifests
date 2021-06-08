@@ -15,6 +15,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project name="AOSPA/android_build_soong" />
+  <project path="build/soong" name="AOSP-whatever/platform_build_make" remote="github" revision="staging/pa-ruby" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <remove-project name="AOSPA/android_device_qcom_common" />
   <project path="device/qcom/common" name="AOSP-whatever/android_device_qcom_common" remote="github" revision="staging/pa-ruby" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -27,9 +32,10 @@
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="AOSP-whatever/platform_frameworks_base" remote="github" revision="staging/pa-ruby" />
   <remove-project name="AOSPA/android_frameworks_native" />
-  <project path="frameworks/native" name="AOSP-whatever/platform_frameworks_native" remote="github" revision="staging/pa-ruby" />
+  <project path="frameworks/native" name="AOSP-whatever/platform_frameworks_native" remote="github" revision="staging/pa-ruby-grallocbits" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
+  <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="AOSP-whatever/platform_system_sepolicy" remote="github" revision="staging/pa-ruby" />
   <remove-project name="AOSPA/android_vendor_pa" />
