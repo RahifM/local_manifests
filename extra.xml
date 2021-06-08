@@ -16,7 +16,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="AOSP-whatever/platform_build_make" remote="github" revision="staging/pa-ruby" >
+  <project path="build/soong" name="AOSP-whatever/platform_build_soong" remote="github" revision="staging/pa-ruby" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
