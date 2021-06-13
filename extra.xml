@@ -5,5 +5,7 @@
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="staging/LA.UM.8.6.r1" />
   <remove-project name="rahifm/proprietary_vendor_xiaomi" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/du-q10x" />
+  <remove-project name="rahifm/android_device_xiaomi_sdm845" />
+  <project name="rahifm/android_device_xiaomi_sdm845" path="device/xiaomi/sdm845-common" remote="github" revision="staging/du-q10x" />
 
 </manifest>
