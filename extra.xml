@@ -36,9 +36,9 @@
   <remove-project name="platform/external/tinycompress" />
   <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/av" />
-  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="rebase/android-11.0.0_r38" />
   <remove-project name="platform/frameworks/base" />
-  <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="staging/android-11.0.0_r38" />
   <remove-project name="platform/frameworks/native" />
   <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
