@@ -9,7 +9,7 @@
   <remove-project name="android_bionic" />
   <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="proton-rvc" />
   <remove-project name="platform/bootable/recovery" />
-  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
+  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="proton-rvc" />
   <remove-project name="android_build_make" />
   <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="proton-rvc">
     <copyfile src="core/root.mk" dest="Makefile" />
