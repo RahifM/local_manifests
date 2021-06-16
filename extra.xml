@@ -9,7 +9,7 @@
   <remove-project name="android_bionic" />
   <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="proton-rvc" />
   <remove-project name="platform/bootable/recovery" />
-  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="proton-rvc" />
+  <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
   <remove-project name="android_build_make" />
   <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="proton-rvc">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -95,7 +95,7 @@
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
   <remove-project name="android_external_zlib-ng" />
-  <project name="proton-beryllium/external_zlib-ng" path="external/zlib-ng" remote="github" revision="rvc" />
+  <project name="platform/external/zlib" path="external/zlib" remote="aosp" />
   
   <remove-project name="android_hardware_qcom_sm8150_display" />
   <remove-project name="android_hardware_qcom_sm8150_media" />
