@@ -4,8 +4,6 @@
 
   <remote name="github" fetch="https://github.com" />
 
-  <remove-project name="android_art" />
-  <project name="AOSP-whatever/platform_art" path="art" remote="github" revision="proton-rvc" />
   <remove-project name="android_bionic" />
   <project name="AOSP-whatever/platform_bionic" path="bionic" remote="github" revision="proton-rvc" />
   <remove-project name="platform/bootable/recovery" />
@@ -93,6 +91,8 @@
   <remove-project name="android_vendor_qcom_opensource_interfaces" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
+  <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/proton-rvc" >
+    <linkfile src="repo_update.sh" dest="repo_update.sh" />
 
   <remove-project name="android_external_zlib-ng" />
   <project name="platform/external/zlib" path="external/zlib" remote="aosp" />
