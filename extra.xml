@@ -6,7 +6,6 @@
 
   <remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
-  <remove-project name="android_build_soong" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-18.1-legacy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
