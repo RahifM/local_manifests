@@ -7,10 +7,6 @@
   <remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
   <remove-project name="android_build_soong" />
-  <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="proton-rvc" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-18.1-legacy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
@@ -22,12 +18,6 @@
   <project name="AOSP-whatever/platform_external_perfetto" path="external/perfetto" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/external/tinycompress" />
   <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
-  <remove-project name="android_frameworks_av" />
-  <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="staging/proton-rvc" />
-  <remove-project name="android_frameworks_base" />
-  <project name="AOSP-whatever/platform_frameworks_base" path="frameworks/base" remote="github" revision="rebase/proton-rvc" />
-  <remove-project name="android_frameworks_native" />
-  <project name="AOSP-whatever/platform_frameworks_native" path="frameworks/native" remote="github" revision="proton-rvc" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project name="AOSP-whatever/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/hardware/interfaces" />
@@ -48,12 +38,8 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" /-->
-  <remove-project name="android_packages_apps_Launcher3" />
-  <project name="AOSP-whatever/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="proton-rvc" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="android_packages_apps_Settings" />
-  <project name="AOSP-whatever/platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="proton-rvc" />
   <!--remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="AOSP-whatever/platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="android-11.0.0" /-->
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
@@ -64,10 +50,6 @@
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/platform_testing" />
   <project name="AOSP-whatever/platform_platform_testing" path="platform_testing" remote="github" revision="android-11.0.0" />
-  <remove-project name="android_system_core" />
-  <project name="AOSP-whatever/platform_system_core" path="system/core" remote="github" revision="proton-rvc" />
-  <remove-project name="android_system_sepolicy" />
-  <project name="AOSP-whatever/platform_system_sepolicy" path="system/sepolicy" remote="github" revision="proton-rvc" />
   <remove-project name="platform/system/vold" />
   <project name="AOSP-whatever/platform_system_vold" path="system/vold" remote="github" revision="android-11.0.0" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="lineage-18.1" />
