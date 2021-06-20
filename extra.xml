@@ -6,16 +6,6 @@
 
   <remove-project name="platform/bootable/recovery" />
   <project name="AOSP-whatever/platform_bootable_recovery" path="bootable/recovery" remote="github" revision="android-11.0.0" />
-  <remove-project name="android_build_make" />
-  <project name="AOSP-whatever/platform_build_make" path="build/make" remote="github" revision="proton-rvc">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <remove-project name="android_build_soong" />
   <project name="AOSP-whatever/platform_build_soong" path="build/soong" remote="github" revision="proton-rvc" >
     <linkfile src="root.bp" dest="Android.bp" />
