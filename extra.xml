@@ -14,7 +14,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
   <remove-project name="platform_vendor_qcom_opensource_power" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
-  <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/proton-rvc" >
+  <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/hos-rika" >
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
   </project>
 
