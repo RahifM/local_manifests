@@ -24,7 +24,7 @@
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/external/tinycompress" />
-  <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="hos-rika" />
+  <project name="AOSP-whatever/platform_external_tinycompress" path="external/tinycompress" remote="github" revision="android-11.0.0" />
   <remove-project name="platform/frameworks/av" />
   <project name="AOSP-whatever/platform_frameworks_av" path="frameworks/av" remote="github" revision="hos-rika" />
   <remove-project name="platform_frameworks_base" />
