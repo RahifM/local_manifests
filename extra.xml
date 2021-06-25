@@ -45,6 +45,10 @@
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
   <remove-project name="platform_vendor_qcom_opensource_power" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform_vendor_qcom_opensource_dataservices" />
+  <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="staging/android-11.0.0" />
   <remove-project name="platform_vendor_hentai" />
   <project name="AOSP-whatever/platform_vendor_hentai" path="vendor/hentai" remote="github" revision="hos-rika" />
 
