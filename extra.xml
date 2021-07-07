@@ -76,6 +76,7 @@
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/proton-rvc" >
    <linkfile src="build.sh" dest="build.sh" />
    <linkfile src="localbuild.sh" dest="localbuild.sh" />
+   <linkfile src="tgup.sh" dest="tgup.sh" />
    <linkfile src="upload.sh" dest="upload.sh" />
    <linkfile src="prebuiltkernelupdate.sh" dest="prebuiltkernelupdate.sh" />
   </project>
