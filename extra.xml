@@ -23,8 +23,11 @@
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/android-11.0.0-2" />
 
   <!-- HALs -->
+  <remove-project name="android_hardware_qcom_display" />
   <project name="rahifm/hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="github" revision="staging/sr4-8996" />
+  <remove-project name="android_hardware_qcom_audio" />
   <project name="rahifm/hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="staging/sr4-8996" />
+  <remove-project name="android_hardware_qcom_media" />
   <project name="rahifm/hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="staging/sr4-8996" />
 
 </manifest>
