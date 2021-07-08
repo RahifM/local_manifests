@@ -4,29 +4,16 @@
 
   <remote name="github" fetch="https://github.com" />
 
-  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-18.1-legacy-um" />
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
-  <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="lineage-18.1" />
-  <remove-project name="platform_vendor_qcom_opensource_interfaces" />
-  <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
-  <remove-project name="platform_vendor_qcom_opensource_power" />
-  <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
-  <remove-project name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-  <project name="AOSP-whatever/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="android-11.0.0" />
-  <remove-project name="platform_vendor_qcom_opensource_dataservices" />
-  <project name="AOSP-whatever/platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="staging/android-11.0.0" />
   <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/hos-rika" >
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
   </project>
 
-  <remove-project name="device/generic/opengl-transport" />
-
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
-  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/hos-rika" >
+  <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/posp-dumaloo-release" >
    <linkfile src="build.sh" dest="build.sh" />
    <linkfile src="localbuild.sh" dest="localbuild.sh" />
    <linkfile src="upload.sh" dest="upload.sh" />
@@ -36,8 +23,8 @@
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/android-11.0.0-2" />
 
   <!-- HALs -->
-  <project name="rahifm/hardware_qcom_display" path="hardware/qcom-caf/msm8953/display" remote="github" revision="staging/sr4-8996" />
-  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" remote="github" revision="staging/sr4-8996" />
-  <project name="rahifm/hardware_qcom_media" path="hardware/qcom-caf/msm8953/media" remote="github" revision="staging/sr4-8996" />
+  <project name="rahifm/hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="github" revision="staging/sr4-8996" />
+  <project name="rahifm/hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="staging/sr4-8996" />
+  <project name="rahifm/hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="staging/sr4-8996" />
 
 </manifest>
