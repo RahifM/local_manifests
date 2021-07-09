@@ -7,6 +7,7 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" clone-depth="1" />
   <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/posp-dumaloo-release" >
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
   </project>
