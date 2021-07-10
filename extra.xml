@@ -27,8 +27,8 @@
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/pa-ruby" >
-   <linkfile src="build.sh" dest="build.sh" />
-   <linkfile src="localbuild.sh" dest="localbuild.sh" />
+   <!--linkfile src="build.sh" dest="build.sh" /-->
+   <linkfile src="pabuild.sh" dest="pabuild.sh" />
    <linkfile src="upload.sh" dest="upload.sh" />
    <linkfile src="prebuiltkernelupdate.sh" dest="prebuiltkernelupdate.sh" />
   </project>
