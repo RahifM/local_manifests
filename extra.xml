@@ -42,6 +42,10 @@
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="lineage-18.1" />
   <project name="AOSP-whatever/platform_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="android-11.0.0" />
 
+  <project name="rahifm/repo_update" path="vendor/repo_update" remote="github" revision="staging/android-11.0.0" >
+    <linkfile src="repo_update.sh" dest="repo_update.sh" />
+  </project>
+
   <!-- Device stuff -->
   <!-- Redmi Note 4X (mido) -->
   <project name="rahifm/device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="staging/android-11.0.0-2" >
