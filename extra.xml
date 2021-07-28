@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="RahifM/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
+</manifest>
