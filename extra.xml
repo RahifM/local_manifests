@@ -17,6 +17,7 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="AOSP-whatever/platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="android-11.0.0" />
+  <remove-project name="platform/hardware/qcom/gps" />
   <project name="omnirom/android_packages_apps_Matlog" path="packages/apps/Matlog" remote="github" revision="android-11" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <project name="AOSP-whatever/platform_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="android-11.0.0" />
