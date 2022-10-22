@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remove-project name="android_build" />
+  <project name="rahifm/build" path="build/make" remote="github" revision="lineage-18.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
   <remote name="gitlab" fetch="https://gitlab.com" />
-  <project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab"/>
+  <project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="lineage-18.1" />
+
 </manifest>
