@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="android_build" />
+  <remove-project name="LineageOS/android_build" />
   <project name="rahifm/build" path="build/make" remote="github" revision="lineage-18.1">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
