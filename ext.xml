@@ -12,7 +12,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <remote name="gitlab" fetch="https://gitlab.com" />
-  <project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="lineage-18.1" />
+  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-18.1" />
 
 </manifest>
