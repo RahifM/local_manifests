@@ -21,5 +21,4 @@
   <!-- remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" /-->
 
-
 </manifest>
