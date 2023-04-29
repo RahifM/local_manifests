@@ -18,8 +18,8 @@
   <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="lineage-18.1" />
   <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" />
+  <!-- remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" /-->
 
 
 </manifest>
