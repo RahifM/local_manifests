@@ -12,6 +12,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="main" />
+  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" />  
+  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
+  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" />
+
   <project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
