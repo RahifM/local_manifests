@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/external/iw" />
-  <project name="RahifM/external_iw" path="external/iw" remote="github" revision="android-7.1.2_r36" />
+  
+  <!--remove-project name="platform/external/iw" />
+  <project name="RahifM/external_iw" path="external/iw" remote="github" revision="android-7.1.2_r36" /-->
+
+  <project name="rahifm/device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-14.1" />
+  <project name="rahifm/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="cm-14.1" />
+
 </manifest>
