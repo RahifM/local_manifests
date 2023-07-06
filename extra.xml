@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
+
+  <remove-project name="LineageOS/android_build" />
+  <project name="rahifm/build" path="build" remote="github" revision="cm-14.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+    
   <!--remove-project name="platform/external/iw" />
   <project name="RahifM/external_iw" path="external/iw" remote="github" revision="android-7.1.2_r36" /-->
 
