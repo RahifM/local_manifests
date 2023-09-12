@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remove-project name="LineageOS/android_build" />
+  <project name="rahifm/build" path="build/make" remote="github" revision="lineage-15.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="rahifm/system_core" path="system/core" remote="github" revision="lineage-15.1" />
+
   <project name="LineageOS/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="github" revision="lineage-15.1" />
   <project name="rahifm/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="lineage-15.1" />
