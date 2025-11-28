@@ -20,6 +20,10 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" /-->
 
+  <!-- asb 2024-05 -->
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" revision="lineage-18.1" />
+
   <project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
