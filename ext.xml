@@ -24,10 +24,10 @@
   <remove-project name="platform/external/sonivox" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" revision="lineage-18.1" />
 
-  <project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
+  <!--project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="lineage-18.1" />
-  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-18.1" />
+  <project name="rahifm/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-18.1" /-->
 
 </manifest>
