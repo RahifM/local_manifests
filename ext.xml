@@ -28,6 +28,10 @@
   <remove-project name="platform/system/libfmq" />
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" revision="lineage-18.1" />
 
+  <!-- asb 2024-11 -->
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk" revision="lineage-18.1" />
+
   <!--project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
