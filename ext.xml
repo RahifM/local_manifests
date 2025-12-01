@@ -32,6 +32,20 @@
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk" revision="lineage-18.1" />
 
+  <!-- asb 2025-01 -->
+  <remove-project name="platform/external/giflib" />
+  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" revision="lineage-18.1" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project path="prebuilts/abi-dumps/vndk" name="LineageOS/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" revision="lineage-18.1" />
+
+  <!-- asb 2025-03 -->
+  <remove-project name="platform/external/dng_sdk" />
+  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" revision="lineage-18.1" />
+
+  <!-- asb 2025-09 -->
+  <remove-project name="platform/packages/modules/CellBroadcastService" />
+  <project path="packages/modules/CellBroadcastService" name="LineageOS/android_packages_modules_CellBroadcastService" groups="pdk" revision="lineage-18.1" />
+
   <!--project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
