@@ -46,6 +46,12 @@
   <remove-project name="platform/packages/modules/CellBroadcastService" />
   <project path="packages/modules/CellBroadcastService" name="LineageOS/android_packages_modules_CellBroadcastService" groups="pdk" revision="lineage-18.1" />
 
+  <!-- asb 2025-12 -->
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" revision="lineage-18.1" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="LineageOS/LineageOS/android_external_sqlite" groups="pdk" revision="lineage-18.1" />
+
   <project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
