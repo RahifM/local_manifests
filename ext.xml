@@ -12,14 +12,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <!--remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
-  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="main" />
-  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" />  
-  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86" />
-  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
-  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" /-->
-
   <!-- asb 2024-05 -->
   <remove-project name="platform/external/sonivox" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" revision="lineage-18.1" />
