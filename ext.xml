@@ -12,6 +12,15 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project path="frameworks/av" name="AOSP-whatever/android_frameworks_av" groups="pdk" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="AOSP-whatever/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project path="system/bt" name="AOSP-whatever/android_system_bt" groups="pdk" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSP-whatever/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" revision="lineage-18.1" />
+
   <!-- asb 2024-05 -->
   <remove-project name="platform/external/sonivox" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" revision="lineage-18.1" />
