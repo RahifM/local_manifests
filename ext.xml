@@ -19,12 +19,10 @@
   <project path="frameworks/base" name="AOSP-whatever/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_system_bt" />
   <project path="system/bt" name="AOSP-whatever/android_system_bt" groups="pdk" revision="lineage-18.1" />
+  <remove-project name="platform/system/libfmq" />
+  <project path="system/libfmq" name="AOSP-whatever/android_system_libfmq" groups="pdk" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSP-whatever/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" revision="lineage-18.1" />
-
-  <!-- asb 2024-06 -->
-  <remove-project name="platform/system/libfmq" />
-  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" revision="lineage-18.1" />
 
   <!-- asb 2024-11 -->
   <remove-project name="platform/external/skia" />
