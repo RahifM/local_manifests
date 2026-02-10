@@ -17,6 +17,8 @@
   <project path="frameworks/av" name="AOSP-whatever/android_frameworks_av" groups="pdk" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="AOSP-whatever/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="AOSP-whatever/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_system_bt" />
   <project path="system/bt" name="AOSP-whatever/android_system_bt" groups="pdk" revision="lineage-18.1" />
   <remove-project name="platform/system/libfmq" />
