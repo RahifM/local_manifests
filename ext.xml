@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="AOSP-whatever/android_build" groups="pdk" remote="github" revision="lineage-18.1">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="AOSP-whatever/android_external_sonivox" groups="pdk" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="AOSP-whatever/android_frameworks_av" groups="pdk" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="AOSP-whatever/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="AOSP-whatever/android_packages_apps_Settings" groups="pdk-fs" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="AOSP-whatever/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <project path="packages/services/Telecomm" name="AOSP-whatever/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_system_bt" />
-  <project path="system/bt" name="AOSP-whatever/android_system_bt" groups="pdk" revision="lineage-18.1" />
-  <remove-project name="platform/system/libfmq" />
-  <project path="system/libfmq" name="AOSP-whatever/android_system_libfmq" groups="pdk" revision="lineage-18.1" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSP-whatever/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" revision="lineage-18.1" />
-
-  <!-- asb 2024-11 -->
-  <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk" revision="lineage-18.1" />
-
-  <!-- asb 2025-01 -->
-  <remove-project name="platform/external/giflib" />
-  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" revision="lineage-18.1" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <project path="prebuilts/abi-dumps/vndk" name="LineageOS/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" revision="lineage-18.1" />
-
-  <!-- asb 2025-03 -->
-  <remove-project name="platform/external/dng_sdk" />
-  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" revision="lineage-18.1" />
-
-  <!-- asb 2025-09 -->
-  <remove-project name="platform/packages/modules/CellBroadcastService" />
-  <project path="packages/modules/CellBroadcastService" name="LineageOS/android_packages_modules_CellBroadcastService" groups="pdk" revision="lineage-18.1" />
-
-  <!-- asb 2025-12 -->
-  <remove-project name="platform/external/libjpeg-turbo" />
-  <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" revision="lineage-18.1" />
-  <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" revision="lineage-18.1" />
-
   <project name="rahifm/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-18.1" />
   <project name="rahifm/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
