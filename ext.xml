@@ -11,7 +11,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="LineageOS/android_android_vendor_qcom_opensource_system_bt" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSP-whatever/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
 
 
